@@ -1,2 +1,2 @@
 # django-todo-app-ebs
-Deploy todo website in elastic beanstalk
+Deployed a simple todo website in AWS elastic beanstalk
