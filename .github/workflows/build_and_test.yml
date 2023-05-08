@@ -18,10 +18,10 @@ jobs:
       with:
         python-version: '3.x'
         
-    - name: Create and start virtual environment
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
+    # - name: Create and start virtual environment
+    #   run: |
+    #     python3 -m venv venv
+    #     source venv/bin/activate
     
     - name: Install Dependencies
       run: |
@@ -32,9 +32,6 @@ jobs:
       run: |
         python manage.py test
  
- 
- 
-  
   
   deploy:
     needs: [test]
