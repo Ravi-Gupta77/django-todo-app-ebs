@@ -52,6 +52,6 @@ jobs:
         application_name: django
         environment_name: django-env
         version_label: 12348
-        aws-region: "us-east-1"
+        aws-region: us-east-1
         deployment_package: deploy.zip
 
